@@ -9,4 +9,8 @@ public class DockerController {
 	public String sayHello() {
 		return "hello serigne";
 	}
+	@GetMapping("/bonjour")
+	public String sayBonjour() {
+		return "bonjour";
+	}
 }
